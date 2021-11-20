@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 
 file_locations = os.path.expanduser(os.getcwd())
-logisim_location = os.path.join(os.getcwd(),"../logisim-evolution.jar")
+logisim_location = os.path.join(os.getcwd(),"../logisim-evolution-2.15.jar")
 
 def run_test(fname):
   try:
